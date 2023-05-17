@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.galeria {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 14px;
+}
+
+h1{
+    font-size: 60.5px;
+    margin-left: 105px;
+    text-align: center;
+    color: aliceblue;
+}
+.glr2 img{
+    padding: 50px;
+}
+.glr3 img{
+    padding: 50px;
+}
+.glr4 img{
+    padding: 50px;
+}
+.glr7 img{
+    padding: 50px;
+}
+
+.glr8 img{
+    padding: 50px;
+}
+.glr9 img{
+    padding: 50px;
+}
+.glr6 img{
+    padding: 50px;
+}
+img {
+    
+    width: 400px;
+    height: 400px;
+
+
+}
+
+header{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,5,5,1) 35%, rgba(0,0,0,1) 100%);
+}
+body{
+    
+    background-image: url(./images/estrelas.webp);
+}
+@media (max-width: 600px)
+{
+    .galeria
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
